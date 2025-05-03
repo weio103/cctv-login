@@ -1,32 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <title>監視器自動登入</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            text-align: center;
-            padding-top: 50px;
-        }
-        button {
-            font-size: 18px;
-            padding: 10px 20px;
-            border-radius: 8px;
-            border: none;
-            background-color: #007BFF;
-            color: white;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>全民督工攝影機登入</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h2>點選以下按鈕登入監視器</h2>
-    <p>帳號：admin &nbsp;&nbsp;&nbsp; 密碼：981250</p>
-    <button onclick="window.location.href='http://116.59.10.91:1158/'">前往監視器登入畫面</button>
+  <h2>自動登入攝影機</h2>
+  <script>
+    // 替換成實際攝影機網址與帳密
+    const camUrl = "http://使用者:密碼@111.246.68.109/";
+    window.location.href = camUrl;
+  </script>
 </body>
 </html>
